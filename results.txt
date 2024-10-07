@@ -1,0 +1,79 @@
+** Pattern 1: creating 5 processes.
+Process 0 (PID: 12634): beginning
+Process 0 (PID: 12634): will sleep for 2 seconds.
+Process 0 (PID: 12634): existing.
+** Pattern 1: creating 5 processes.
+Parent: created child 0 (PID: 12634)
+Parent: created child 1 (PID: 12635)
+Parent: created child 2 (PID: 12636)
+Parent: created child 3 (PID: 12637)
+Process 4 (PID: 12638): beginning
+Process 4 (PID: 12638): will sleep for 2 seconds.
+Process 4 (PID: 12638): existing.
+** Pattern 1: creating 5 processes.
+Parent: created child 0 (PID: 12634)
+Process 1 (PID: 12635): beginning
+Process 1 (PID: 12635): will sleep for 2 seconds.
+Process 1 (PID: 12635): existing.
+** Pattern 1: creating 5 processes.
+Parent: created child 0 (PID: 12634)
+Parent: created child 1 (PID: 12635)
+Process 2 (PID: 12636): beginning
+Process 2 (PID: 12636): will sleep for 2 seconds.
+Process 2 (PID: 12636): existing.
+** Pattern 1: creating 5 processes.
+Parent: created child 0 (PID: 12634)
+Parent: created child 1 (PID: 12635)
+Parent: created child 2 (PID: 12636)
+Process 3 (PID: 12637): beginning
+Process 3 (PID: 12637): will sleep for 2 seconds.
+Process 3 (PID: 12637): existing.
+** Pattern 1: creating 5 processes.
+Parent: created child 0 (PID: 12634)
+Parent: created child 1 (PID: 12635)
+Parent: created child 2 (PID: 12636)
+Parent: created child 3 (PID: 12637)
+Parent: created child 4 (PID: 12638)
+** Pattern 1: All children have exited.
+** Pattern 2: creating 5 processes.
+Child 0 (PID: 12689): starting.
+Process 0 (PID: 12689): beginning
+Process 0 (PID: 12689): will sleep for 4 seconds.
+Process 0 (PID: 12689): existing.
+** Pattern 2: creating 5 processes.
+Parent: created child 0 (PID: 12689).
+Child 1 (PID: 12726): starting.
+Process 1 (PID: 12726): beginning
+Process 1 (PID: 12726): will sleep for 4 seconds.
+Process 1 (PID: 12726): existing.
+** Pattern 2: creating 5 processes.
+Parent: created child 0 (PID: 12689).
+Parent: created child 1 (PID: 12726).
+Child 2 (PID: 12762): starting.
+Process 2 (PID: 12762): beginning
+Process 2 (PID: 12762): will sleep for 4 seconds.
+Process 2 (PID: 12762): existing.
+** Pattern 2: creating 5 processes.
+Parent: created child 0 (PID: 12689).
+Parent: created child 1 (PID: 12726).
+Parent: created child 2 (PID: 12762).
+Child 3 (PID: 12774): starting.
+Process 3 (PID: 12774): beginning
+Process 3 (PID: 12774): will sleep for 4 seconds.
+Process 3 (PID: 12774): existing.
+** Pattern 2: creating 5 processes.
+Parent: created child 0 (PID: 12689).
+Parent: created child 1 (PID: 12726).
+Parent: created child 2 (PID: 12762).
+Parent: created child 3 (PID: 12774).
+Child 4 (PID: 12792): starting.
+Process 4 (PID: 12792): beginning
+Process 4 (PID: 12792): will sleep for 4 seconds.
+Process 4 (PID: 12792): existing.
+** Pattern 2: creating 5 processes.
+Parent: created child 0 (PID: 12689).
+Parent: created child 1 (PID: 12726).
+Parent: created child 2 (PID: 12762).
+Parent: created child 3 (PID: 12774).
+Parent: created child 4 (PID: 12792).
+** Pattern 2: All children have exited.
